@@ -10,12 +10,12 @@ To get started with using this ANPR system, follow these steps:
 
 ```bash
 git clone https://github.com/chainsaw14/ANPR.git
-
+```
 1. Traverse to directory:
 
 ```bash
 cd ANPR
-
+```
 
 3. Install the required dependencies by running:
 ```bash
