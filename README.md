@@ -20,11 +20,11 @@ cd ANPR
 3. Install the required dependencies by running:
 ```bash
 pip install -r requirements.txt
-
+```
 4. Run the ANPR system by executing the main.py file and providing the path to the video file you want to analyze:
 ```bash
 python main.py --video_path /path/to/your/video/file.mp4
-
+```
 
 Structure
 The repository has the following structure:
