@@ -47,4 +47,9 @@ util.py: Utility functions for the ANPR system.
 
 yolov8n.pt: YOLOv8 model weights file.
 
+## Contributing
+Contributions to improve this ANPR system are welcome! Feel free to submit pull requests or open issues if you encounter any problems or have suggestions for enhancements.
+
+## License
+
 This README provides a basic guide to getting started with the ANPR system, outlines the directory structure, encourages contributions, and mentions the project's license. Let me know if you need further details or modifications!
