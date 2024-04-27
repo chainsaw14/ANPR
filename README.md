@@ -26,17 +26,25 @@ pip install -r requirements.txt
 python main.py --video_path /path/to/your/video/file.mp4
 ```
 
-Structure
+##Structure
 The repository has the following structure:
 
 data/: Directory for storing data related to the ANPR system.
+
 model/: Directory for storing machine learning models.
-sample/: Directory for storing sample data or results.
+
+sample/: Directory for storing sample data or results
+
 sort/: Directory for SORT (Simple Online and Realtime Tracking) algorithm implementation.
+
 database.py: Python file for handling database operations.
+
 main.py: Main Python file for running the ANPR system.
+
 requirements.txt: Text file listing all the required dependencies.
+
 util.py: Utility functions for the ANPR system.
+
 yolov8n.pt: YOLOv8 model weights file.
 
 This README provides a basic guide to getting started with the ANPR system, outlines the directory structure, encourages contributions, and mentions the project's license. Let me know if you need further details or modifications!
