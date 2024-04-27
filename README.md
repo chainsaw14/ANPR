@@ -26,7 +26,7 @@ pip install -r requirements.txt
 python main.py --video_path /path/to/your/video/file.mp4
 ```
 
-##Structure
+## Structure
 The repository has the following structure:
 
 data/: Directory for storing data related to the ANPR system.
