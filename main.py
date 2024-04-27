@@ -17,11 +17,12 @@ mot_tracker = Sort()
 coco_model = YOLO('yolov8n.pt')
 license_plate_detector = YOLO('./model/license_plate_detector.pt')
 # load video
-cap = cv2.VideoCapture("C:\\Users\\Harsh\\Downloads\\small multi.mp4")
+
 vehicles = [2, 3, 5, 7]
 def detection(cap):
     # read frames
     # It takes argument as a cv2 image object or a cv2 video object
+    cap = cv2.VideoCapture("C:\\Users\\Harsh\\Downloads\\small multi.mp4")
     frame_nmr = -1
     ret = True
     while ret:
@@ -78,4 +79,15 @@ def detection(cap):
     print("Results")
     write_csv(results, './/data//test.csv')
     store()
-detection(cap)
+if __name__ == "__main__":
+    # Create argument parser
+    parser = argparse.ArgumentParser(description="ANPR system")
+
+    # Add argument for video path
+    parser.add_argument("--video_path", type=str, help="Path to the video file")
+
+    # Parse the arguments
+    args = parser.parse_args()
+
+    # Call main function with the provided video path
+    detection(args.video_path)
