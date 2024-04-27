@@ -12,6 +12,7 @@ To get started with using this ANPR system, follow these steps:
 git clone https://github.com/chainsaw14/ANPR.git
 
 2. Traverse to directory:
+
 ```bash
 cd ANPR
 
